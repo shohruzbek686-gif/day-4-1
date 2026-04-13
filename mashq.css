@@ -1,0 +1,120 @@
+*{
+            margin: 0;
+            padding: 0;
+}
+html{
+            text-align: center;
+            font-family:'Courier New', Courier, monospace;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 25px;
+    border: 1px solid lightgray;
+}
+nav a {
+    text-decoration: none;
+    color: gray;
+    margin: 0 20px;
+}
+a:hover{
+    color: black;
+}
+h1{
+    margin-top: 100px;
+    font-size: 3.74rem;
+    font-weight: bold;
+    line-height: 1.2em;
+}
+div{
+    padding-top: calc(45px + 1rem + 2px);
+}
+.butt{
+    text-transform: uppercase;
+    text-decoration: none;
+    background: linear-gradient( to left,blue ,pink);
+    padding: 10px;
+    display: inline-block;
+    width: 200px;
+    border-radius: 34px;
+    margin-top: 40px;
+    color: white;
+    transition: 150ms ease;
+    margin-top: 40px;
+}
+.butt:hover {
+    scale: 1.2;
+    color: white;
+}
+h1 + p {
+    margin-top: 20px;
+}
+.vid{
+    width: 600px;
+    height: 300px;
+    border-radius: 25px;
+    margin: 0 auto;
+}
+.white{
+    background-color: white;
+    color: black;
+    display: inline-block;
+    border: 1px solid black;
+    width: 230px;
+    height: 230px;
+    border-radius: 23px;
+    padding: 20px;
+       margin: 20px;
+}
+.blue {
+    color: white;
+    width: 230px;
+    height: 230px;
+    border-radius: 23px;
+    padding: 20px;
+    display: inline-block;
+    border: 1px solid;
+    background-color: blue;
+       margin: 20px;
+}
+.black{
+        width: 230px;
+    height: 230px;
+    border-radius: 23px;
+    padding: 20px;
+    display: inline-block;
+    border: 1px solid;
+    color: white;
+    background-color: black;
+    margin: 20px;
+}
+input{
+    
+display: block;
+margin: 0 auto;
+margin-bottom: 15px;
+font: inherit;    
+border-radius: 30px;
+}
+ input[type="password"]{
+    padding: 20px;
+        border: none;
+    background-color: aliceblue;
+    width: 300px;
+}
+.text{
+    padding: 20px;
+    border: none;
+    background-color: aliceblue;
+     width: 300px;
+}
+        
+input[type="submit"]{
+    width: 200px;
+    padding: 10px;
+    background-color: #0071ff;
+    color: white;
+    font-weight: 500;
+    border: none;
+}
